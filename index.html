@@ -1,15 +1,125 @@
-<!doctype html>
-<html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta name="Generator" content="EditPlus®">
-  <meta name="Author" content="">
-  <meta name="Keywords" content="">
-  <meta name="Description" content="">
-  <title>Document</title>
- </head>
- <body>
-  333
-  333
- </body>
-</html>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<!--声明当前页面的编码集：charset=gbk,gb2312(中文编码)，utf-8国际编码-->
+			<meta  charset="utf-8">
+			<meta name="author" content="聪仔" />
+			<title>JS实战-阴阳师手游首页</title>
+			<link rel="stylesheet" href="css/reset.css">
+			<link rel="stylesheet" href="css/index.css">
+			<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		</head>
+		<body>
+			<!-- 背景部分 -->
+			<div id="bg">
+				<!-- 背景1 -->
+				<div class="bg bg1"></div>
+				<!-- 背景2 -->
+				<div class="bg bg2"></div>
+				<!-- 背景3 -->
+				<div class="bg bg3"></div>
+			</div>
+			
+			<!-- 首屏 -->
+			<div id="wrap">
+				<!-- 首屏滑动图片 -->
+				<div class="wSwiper">
+					<div id="logo" class="swp swp1">
+						<a href="">
+							<img src="img/logo1.png" class="img1" alt="logo">
+							<img src="img/logo2.png" class="img2" alt="logo">
+						</a>
+					</div>
+					<div class="swp swp2">
+						<a href=""></a>
+					</div>
+					<div class="swp swp3"></div>
+					<div class="swp swp4">
+						<p>扫一扫，下载游戏</p>
+						<div class="qrcode">
+							<a href="">
+								<img class="line" src="img/line.png" alt="">
+							</a>
+						</div>
+						<div class="download">
+							<a href="" >
+								<img src="img/downios.png"  alt="">
+							</a>	
+							<a href="" class="Android">
+								<img src="img/downand.png" alt="">
+							</a>
+						</div>	
+					</div>
+				</div>
+				<!-- 鼠标向下图标 -->
+				<div class="mouse"></div>
+			</div>
+			<!-- 新版情报 -->
+			<div id="newinfo">
+				<div class="main">
+					<p class="title"></p>
+					<div class="infoList">
+						<ul>
+							<li class="l1 heid">
+								<i class="i1"></i>
+								<i class="i2"></i>
+								<i class="i3"></i>
+								<i class="i4"></i>
+							</li>
+							<li class="l2 heid">
+								<i class="i1"></i>
+								<i class="i2"></i>
+								<i class="i3"></i>
+								<i class="i4"></i>
+							</li>
+							<li class="l3 heid">
+								<i class="i1"></i>
+								<i class="i2"></i>
+								<i class="i3"></i>
+								<i class="i4"></i>
+							</li>
+							<li class="l4 heid">
+								<i class="i1"></i>
+								<i class="i2"></i>
+								<i class="i3"></i>
+								<i class="i4"></i>
+							</li>
+							<li class="l5 heid">
+								<i class="i1"></i>
+								<i class="i2"></i>
+								<i class="i3"></i>
+								<i class="i4"></i>
+							</li>
+							<li class="l6 heid">
+								<i class="i1"></i>
+								<i class="i2"></i>
+								<i class="i3"></i>
+								<i class="i4"></i>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+			<!-- 游戏特色 -->
+			<div id="game">
+				<div class="box">
+					<p class="title"></p>
+					<div class="banner">
+						<div class="pic">
+							<ul>
+								<li class="mid"><img src="img/game/bannerimg1.jpg" alt=""></li>
+								<li class="right"><img src="img/game/bannerimg2.jpg" alt=""></li>
+								<li><img src="img/game/bannerimg3.jpg" alt=""></li>
+								<li><img src="img/game/bannerimg4.jpg" alt=""></li>
+								<li class="left"><img src="img/game/bannerimg5.jpg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<div class="btn lBtn"><img src="img/game/left.png" alt=""></div>
+					<div class="btn rBtn"><img src="img/game/right.png" alt=""></div>	
+				</div>
+			</div>
+
+			<script src = "js/index.js"></script>
+		</body>
+	<html>
